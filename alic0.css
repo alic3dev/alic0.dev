@@ -1,241 +1,25 @@
 html,
 body,
 :root {
-  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  justify-content: center;
+  align-items: center;
+
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+
+  background: #ffffff;
 }
 
-#O {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-
-  opacity: 1;
-
-  pointer-events: none;
-
-  transition: all ease-in-out 666ms;
-  transition-delay: 666ms;
-}
-
-#O.hide {
-  opacity: 0;
-}
-
-#OO {
-  position: fixed;
-  top: 0;
-  left: 33.33%;
-  right: 33.33%;
-  bottom: 0;
-
-  background: rgba(0, 255, 0);
-}
-
-#OOO {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 66.66%;
-  bottom: 0;
-
-  background: rgba(255, 0, 0);
-}
-
-#OOOO {
-  position: fixed;
-  top: 0;
-  left: 66.66%;
-  right: 0;
-  bottom: 0;
-
-  background: rgba(0, 0, 255);
-}
-
-#OOOOO {
-  position: fixed;
-  top: calc(100% - 25px);
-  left: 0;
-  right: 0;
-  bottom: 0;
-
-  background: linear-gradient(to right, #000, #fff);
-}
-
-#OOOOOOO {
-  position: fixed;
-  top: calc(100% - 50px);
-  left: 0;
-  right: 0;
-  bottom: 25px;
-}
-
-#OOOOOOO div:nth-child(1) {
+.canvas {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
 
-  background: rgb(42.5, 42.5, 42.5);
-}
-
-#OOOOOOO div:nth-child(2) {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 16.666666%;
-  bottom: 0;
-
-  background: rgb(85, 85, 85);
-}
-
-#OOOOOOO div:nth-child(3) {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 33.33333%;
-  bottom: 0;
-
-  background: rgb(127.5, 127.5, 127.5);
-}
-
-#OOOOOOO div:nth-child(4) {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 50%;
-  bottom: 0;
-
-  background: rgb(170, 170, 170);
-}
-
-#OOOOOOO div:nth-child(5) {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 66.6666%;
-  bottom: 0;
-
-  background: rgb(212.5, 212.5, 212.5);
-}
-
-#OOOOOOO div:nth-child(6) {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 83.33333%;
-  bottom: 0;
-
-  background: rgb(255, 255, 255);
-}
-
-#OOOOOOOOO {
-  position: fixed;
-  top: calc(100% - 75px);
-  left: 0;
-  right: 0;
-  bottom: 50px;
-
-  background: linear-gradient(
-    to right,
-    rgb(255, 0, 0),
-    rgb(0, 255, 0),
-    rgb(0, 0, 255)
-  );
-}
-
-#OOOOOOOOOOOOOO {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 75px;
-
-  height: 25px;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-#OOOOOOOOOOOOOO div {
-  height: 100%;
-}
-
-#OOOOOOOOOOOOOO div:nth-child(5) {
-  background: rgb(255, 0, 0);
-}
-
-#OOOOOOOOOOOOOO div:nth-child(4) {
-  background: rgb(255, 255, 0);
-}
-
-#OOOOOOOOOOOOOO div:nth-child(3) {
-  background: rgb(0, 255, 0);
-}
-
-#OOOOOOOOOOOOOO div:nth-child(2) {
-  background: rgb(0, 255, 255);
-}
-
-#OOOOOOOOOOOOOO div:nth-child(1) {
-  background: rgb(0, 0, 255);
-}
-
-#OOOOOOOOOOOOOOOOOOOO {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-
-  width: 50vw;
-  height: 50vw;
-
-  border: solid 50px rgba(0, 0, 0);
-  border-radius: 100%;
-
-  transform: translate(-50%, -50%);
-}
-
-#OOOOOOOOOOOOOOOOOOOOO {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-
-  width: 50vw;
-  height: 50vw;
-
-  border: solid 40px rgba(100, 100, 100);
-  border-radius: 100%;
-
-  transform: translate(-50%, -50%);
-}
-
-#OOOOOOOOOOOOOOOOOOOOOO {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-
-  width: 50vw;
-  height: 50vw;
-
-  border: solid 30px rgba(200, 200, 200);
-  border-radius: 100%;
-
-  transform: translate(-50%, -50%);
-}
-
-#OOOOOOOOOOOOOOOOOOOOOOO {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-
-  width: 50vw;
-  height: 50vw;
-  border: solid 20px rgba(255, 255, 255);
-  border-radius: 100%;
-
-  transform: translate(-50%, -50%);
+  object-fit: cover;
 }
