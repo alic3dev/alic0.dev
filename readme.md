@@ -1,8 +1,8 @@
 # alic0.dev
 
-[alic0.dev](https://alic0.dev)  
+[alic0.dev](https://alic0.dev)
 
-<img width="3800" height="2186" alt="Screenshot 2025-07-20 at 03 45 11" src="https://github.com/user-attachments/assets/40ef4c9e-501b-4b0e-925c-d0363da0e49f" />
+<img width="2032" height="1316" alt="alic0" src="https://github.com/user-attachments/assets/63128544-dba0-4629-b69e-eb0afede5566" />
 
 ## copyright|copyleft
 
