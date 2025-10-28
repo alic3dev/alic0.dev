@@ -19,7 +19,7 @@
     "@vercel/kv": "^3.0.0",
     "@vercel/postgres-kysely": "^0.10.0",
     "@vercel/speed-insights": "^1.2.0",
-    "alic3-motd": "github:alic0dev/motd",
+    "alic3-motd": "github:alic3dev/motd",
     "date-fns": "^4.1.0",
     "dotenv": "^16.6.1",
     "kysely": "^0.27.6",
