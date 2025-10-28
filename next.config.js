@@ -6,7 +6,7 @@ module.exports = {
   },
   sassOptions: { silenceDeprecations: ["legacy-js-api"] },
   webpack(config) {
-    config.module.rules.push({ test: /motd\/alic0/u, type: "asset/source" });
+    config.module.rules.push({ test: /motd\/alic3/u, type: "asset/source" });
 
     return config;
   },
