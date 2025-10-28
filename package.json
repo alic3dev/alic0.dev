@@ -1,0 +1,52 @@
+{
+  "name": "alic0.dev",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "@types/grecaptcha": "^3.0.9",
+    "@types/node": "22.13.9",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "@types/seedrandom": "^3.0.8",
+    "@upstash/ratelimit": "^2.0.6",
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/functions": "^2.2.13",
+    "@vercel/kv": "^3.0.0",
+    "@vercel/postgres-kysely": "^0.10.0",
+    "@vercel/speed-insights": "^1.2.0",
+    "alic3-motd": "github:alic3dev/motd",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.6.1",
+    "kysely": "^0.27.6",
+    "module-alias": "^2.2.3",
+    "next": "^15.5.4",
+    "nodemailer": "^7.0.9",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-icons": "^5.5.0",
+    "seedrandom": "^3.0.5",
+    "server-only": "^0.0.1",
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@next/eslint-plugin-next": "^15.5.4",
+    "@types/module-alias": "^2.0.4",
+    "@types/nodemailer": "^6.4.20",
+    "@types/three": "^0.174.0",
+    "encoding": "^0.1.13",
+    "eslint": "^9.37.0",
+    "eslint-config-next": "15.3.3",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "jiti": "^2.6.1",
+    "sass": "^1.93.2",
+    "typescript": "5.8.2"
+  },
+  "packageManager": "pnpm@10.18.1+sha512.77a884a165cbba2d8d1c19e3b4880eee6d2fcabd0d879121e282196b80042351d5eb3ca0935fa599da1dc51265cc68816ad2bddd2a2de5ea9fdf92adbec7cd34"
+}
