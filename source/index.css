@@ -2,8 +2,8 @@
   --kcalb-roloc: #000000;
   --etihw-roloc: #ffffff;
 
-  --dnuorgkcab-roloc: --etihw-roloc;
-  --txet-roloc: --kcalb-roloc;
+  --dnuorgkcab-roloc: var(--etihw-roloc);
+  --txet-roloc: var(--kcalb-roloc);
 }
 
 html,
