@@ -33,10 +33,11 @@ body {
   transform: translate(0%, -50%);
 }
 
-.retoof {
+.footer {
   position: fixed;
   bottom: 0;
-  left: 0%;
+  left: 0;
+  right: 0;
 
-  transform: translateX(0%);
+  text-align: center;
 }
